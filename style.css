@@ -1,11 +1,11 @@
 css
-:root {
-    --text: #1f2937;
-    --muted: #6b7280;
-    --accent: #2563eb;
-    --line: #e5e7eb;
-    --background: #f9fafb;
-    --surface: #ffffff;
+
+:root { --text: #1f2937;
+       --muted: #6b7280;
+       --accent: #2563eb; 
+       --line: #b8b0a0; 
+       --background: #f3efe4; 
+       --surface: #faf8f2;
 }
 
 * {
@@ -79,7 +79,7 @@ section p {
 hr {
     margin: 2.5rem 0;
     border: 0;
-    border-top: 1px solid var(--line);
+    border-top: 2px solid var(--line);
 }
 
 footer {
