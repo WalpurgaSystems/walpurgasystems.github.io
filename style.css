@@ -42,9 +42,10 @@ header {
 }
 
 .company-name {
-    margin: 0 0 1rem;
-    font-size: 1.1rem;
-    letter-spacing: 0.04em;
+    margin: 0 0 1.25rem;
+    font-size: clamp(2.8rem, 8vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
 }
 
 .company-name strong {
@@ -52,17 +53,17 @@ header {
 }
 
 h1 {
-    max-width: 700px;
+    max-width: 650px;
     margin: 0;
-    font-size: clamp(2.2rem, 6vw, 4rem);
-    line-height: 1.1;
-    letter-spacing: -0.03em;
-    font-weight: 600;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
 }
 
 h1 em {
     font-style: italic;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 section {
