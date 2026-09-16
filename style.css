@@ -1,107 +1,55 @@
-css
-
-:root { --text: #1f2937;
-       --muted: #6b7280;
-       --accent: #2563eb; 
-       --line: #b8b0a0; 
-       --background: #f3efe4; 
-       --surface: #faf8f2;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px;
-}
-
+```css
 body {
     margin: 0;
-    min-height: 100vh;
-    background: var(--background);
-    color: var(--text);
-    font-family:
-        ui-sans-serif,
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
-    line-height: 1.7;
+    background: #f0e6c8;
+    color: #222;
+    font-family: Arial, sans-serif;
 }
-
+ 
 main {
-    width: min(760px, calc(100% - 2rem));
+    width: min(760px, calc(100% - 40px));
     margin: 0 auto;
-    padding: 5rem 0 4rem;
-}
-
-header {
-    margin-bottom: 3.5rem;
+    padding: 60px 0;
 }
 
 .company-name {
-    margin: 0 0 1.25rem;
-    font-size: clamp(2.8rem, 8vw, 5rem);
+    margin: 0 0 20px;
+    font-size: 64px;
     line-height: 1;
-    letter-spacing: -0.04em;
-}
-
-.company-name strong {
     font-weight: 800;
 }
 
 h1 {
-    max-width: 650px;
     margin: 0;
-    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    font-size: 32px;
     line-height: 1.2;
-    letter-spacing: -0.02em;
-    font-weight: 500;
-}
-
-h1 em {
-    font-style: italic;
     font-weight: 400;
 }
 
-section {
-    padding: 1rem 0;
-}
-
-section p {
-    margin: 0;
-    font-size: 1.1rem;
-    color: var(--muted);
-}
-
 hr {
-    margin: 2.5rem 0;
+    display: block;
+    height: 2px;
+    margin: 50px 0;
     border: 0;
-    border-top: 2px solid var(--line);
+    background: #777;
+}
+
+section p,
+footer p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 footer {
-    margin-top: 3.5rem;
-    padding: 1.5rem;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-}
-
-footer p {
-    margin: 0;
-    color: var(--muted);
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f3e3;
+    border: 1px solid #c8bfa8;
+    border-radius: 10px;
 }
 
 a {
-    color: var(--accent);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #2457a6;
+    font-weight: bold;
 }
 
