@@ -97,7 +97,7 @@ hr {
 .section-label {
     margin: 0 0 1.25rem;
     color: var(--muted);
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -122,7 +122,7 @@ hr {
 
 .thing h2 {
     margin: 0 0 0.35rem;
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 1.35;
     font-weight: 650;
     letter-spacing: -0.01em;
