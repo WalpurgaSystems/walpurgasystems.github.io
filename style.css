@@ -2,7 +2,7 @@
     --text: #1f2937;
     --muted: #6b7280;
     --accent: #2563eb;
-    --line: #b8b0a0;
+    --line: #cbc5b8;
     --background: #f3efe4;
     --surface: #faf8f2;
 }
@@ -75,13 +75,65 @@ section p {
     color: var(--muted);
 }
 
+section p + p {
+    margin-top: 1rem;
+}
+
 hr {
     display: block;
     width: 100%;
     height: 1px;
-    margin: 2.5rem 0;
+    margin: 2rem 0;
+    padding: 0;
     border: 0;
     background: var(--line);
+}
+
+.things {
+    padding: 0;
+    margin: 0;
+}
+
+.section-label {
+    margin: 0 0 1.25rem;
+    color: var(--muted);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.thing {
+    position: relative;
+    padding: 1.25rem 0 1.25rem 1.5rem;
+}
+
+
+.thing::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.7rem;
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.thing h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.15rem;
+    line-height: 1.35;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+}
+
+.thing p {
+    margin: 0;
+    max-width: 620px;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 footer {
